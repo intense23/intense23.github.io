@@ -54,10 +54,67 @@
 										<h2>InteNSE'23</h2>
 										<p>A one-day workshop to discuss the opportunities and challenges in neural software engineeing and analysis.</p>
 									</header>
-									<p><h4>What is neural software engineering?</h4> Answer Here!</p>
-									<p><h4>Why is it important to develop robust and interpretable neural software engineering?</h4> Answer Here!</p>
-									<p><h4>Why do we need more research in this area?</h4> Answer Here!</p>
-									<p>Co-located with ICSE'23, InteNSE'23 will include <b>1) two keynotes</b>, <b>2) research paper presentations</b>, <b>3) hands-on Hackathon</b>, and <b>4) the panel of expert discussions</b>.</p>
+									<p>
+										<h4>What is Neural Software Engineering?</h4> 
+										Due to recent computational advancements in Deep Learning (DL), data-driven tools and algorithms have 
+										become an inseparable part of different research areas in the Software Engineering.
+										DL has shown to improve and revolutionize many SE tasks such as code manipulation,
+										program repair, program synthesis, software testing, debugging, and symbolic analysis. 										
+										We consider the neural software engineering (NSE) as a broad research area at the intersection of
+										machine learning (ML) and software engineering (SE).
+									</p>
+									<p>
+										<h4>Why is it important to develop robust and interpretable neural software engineering?</h4>
+										 Currently, most research in software engineering treat ML models as
+										 closed-box and opaque. However, this treatment brings many challenges to the
+										 interpretability and robustness of NSE.
+										 <ul>
+											<li>
+												DL models are notorious for adversarial example attacks
+												that can mislead neural models to make an unintended prediction.
+												In the NSE setting, such vulnerability can result in subtle,												
+												and often unnoticed bugs in software. Without
+												ensuring the adversarial robustness, there is a risk
+												that neural models perform poorly on real codebase.
+											</li>
+											<li>
+												Closed-box models can only be evaluated through generic metrics. 
+												As a result, one cannot truly determine and validate if the superiority of a new
+												model is due to better embedding of
+												code, fine-tuning, the architecture, or data leakage.
+												Without	such understanding, the community only blindly
+												progresses on designing better neural models for software analysis.
+											</li>
+											<li>
+												Since the ultimate end user of NSE is software developers,
+												a neural model that automates specific tasks without giving
+												convincing high-level explanations to
+												developers about the <i>whys</i> and the <i>hows</i> in the automation
+												process, would be unsatisfactory and often useless in practice. 												
+											</li>
+										 </ul>
+									</p>
+									<br><h4>What is the goal of InteNSE workshop?</h4> 
+										<table cellspacing="10">
+											<tr>
+											  <td>
+												While SE community needs to enforce <i>Interpretability</i> and
+												<i>Robustness</i> as the primary evaluation metics,
+												two crucial prerequisites still need to be met: (1) Awareness and (2) Knowledge.
+												At InteNSE, we aim to advance the state of ML4SE research by considering four main components
+												keynotes, research papers, hackathon, and a panel.
+												The first two components of the workshop aim to contribute to the knowledge
+												about different interpretability techniques and robust developments of NSE.
+												The latter two components aim to foster awareness for the SE community about
+												the pitfalls of ignoring interpretability and robustness of NSE.
+												Co-located with ICSE'23, InteNSE'23 will include <b>1) two keynotes</b>, <b>2) research paper presentations</b>, <b>3) hands-on Hackathon</b>, and <b>4) the panel of expert discussions</b>.
+												</td>
+												<td>
+													<br/><img src="images/Components.jpg" alt="components" />
+												</td>
+												</tr>
+										</table>
+									</br>
 								</div>
 							</section>
 
@@ -68,15 +125,20 @@
 									<p>InteNSE is an interdisciplinary workshop that targets research at the intersection of programming languages and software engineering (PLSE) and ML. We welcome submission of research papers that consider interpretability and robustness as first-class citizens in the (1) design of neural models for code and the (2) evaluation of the resulting ML4SE techniques.</p>
 									<p> Topics of interest include, but are not limited to the following software engineering and analysis tasks:</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-code">Robustness of Neural SE</li>										
-										<li class="icon solid fa-code">Interpretability of Neural SE</li>										
+										<li class="icon solid fa-code">Robustness of NSE</li>										
+										<li class="icon solid fa-code">Interpretability of NSE</li>										
 										<li class="icon solid fa-code">Source Code Analysis</li>
 										<li class="icon solid fa-code">Program Synthesis</li>
 										<li class="icon solid fa-code">Program Repair</li>
+										<li class="icon solid fa-code">Software Testing</li>									
+										<li class="icon solid fa-code">Software Debugging</li>									
 										<li class="icon solid fa-code">Neurosymbolic Programming</li>										
 										<li class="icon solid fa-code">Prompting </li>
-										<li class="icon solid fa-code">To Add More Domains!</li>									
 									</ul>
+									<p>
+									The authors are highly encouraged to discuss the interpretability and robustness of their proposed approach
+									in their submissions.
+									</p>
 									<h4>Submission Format</h4>
 									<p>Submissions must conform to the IEEE conference proceedings template, specified in the
 										<a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">IEEE Conference Proceedings Formatting Guidelines</a>
@@ -89,8 +151,8 @@
 										effort to honor the double-blind review process. In particular, the authors' names must be omitted
 										from the submission, and references to their prior work should be in the third person.
 										These papers should be at most <b>6 pages</b> in length.</p>
-										<p>The paper submission deadline is 13 January 2023 AoE (UTC-12h).</p>
-										<p>Accepted paper will appear in the ...</p>
+										<p>The paper submission deadline is <b>13 January 2023 AoE (UTC-12h)</b>.</p>
+										<!-- <p>Accepted paper will appear in the ...</p> -->
 									</div>
 							</section>
 
