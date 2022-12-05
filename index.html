@@ -22,18 +22,18 @@
 					<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Call for Paper</a></li>
-						<li><a href="#three">Keynotes</a></li>
-						<li><a href="#four">Hackathon</a></li>
-						<li><a href="#five">Expert Panel</a></li>
+						<li><a href="#two">Components</a></li>
+						<li><a href="#three">Topics of Interest</a></li>
+						<li><a href="#four">Submission Guidelines</a></li>
+						<li><a href="#five">Participation</a></li>
 						<li><a href="#six">Organization and Program Committees</a></li>
 					</ul>
 				</nav>
 				<footer>
 					<ul class="icons">
 						<li><a href="https://twitter.com/InteNSEWorkshop" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<!-- <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li> -->
+						<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
 					</ul>
 				</footer>
 			</section>
@@ -56,6 +56,30 @@
 										<p style="text-align:center">May 14th, 2023</p>
 										<p style="text-align:center">[Co-located with ICSE'23, Melbourne, Australia]</p>					
 									</header>
+									<p>
+										<table>
+											<thead>
+											  <tr>
+												<th>Important Dates:</th>
+												<th>Important Links:</th>
+											  </tr>
+											</thead>
+											<tbody>
+											  <tr>
+												<td><u>Submission Deadline:</u> January 13, 2023</td>
+												<td><u>Submission Website:</u> <a href="https://intense23.hotcrp.com" target="_blank">https://intense23.hotcrp.com</a></td>
+											  </tr>
+											  <tr>
+												<td><u>Notification to Authors:</u> February 23, 2023</td>
+												<td><u>Workshop Website:</u> <a href="https://tinyurl.com/intense23" target="_blank">https://tinyurl.com/intense23</a></td>
+											  </tr>
+											  <tr>
+												<td><u>Camera-Ready Deadline:</u> March 17, 2023</td>
+												<td><u>Twitter:</u> <a href="https://twitter.com/intenseWorkshop" target="_blank">https://twitter.com/intenseWorkshop</a></td>
+											  </tr>
+											</tbody>
+										  </table>
+									</p>
 									
 									<p>
 										<h4>Why InteNSE?</h4>
@@ -152,10 +176,39 @@
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Call For Papers</h3>
-									<p>InteNSE is an interdisciplinary workshop that targets research at the intersection of programming languages and software engineering (PLSE) and ML. We welcome submission of research papers that consider interpretability and robustness as first-class citizens in the (1) design of neural models for code and the (2) evaluation of the resulting ML4SE techniques.</p>
-									<p> Topics of interest include, but are not limited to the following software engineering and analysis tasks:</p>
-									<ul class="feature-icons">
+									<h3>Workshop Components</h3>
+									<p>InteNSE consists of the following four components to enable the knowledge and awareness concerning the interpretability and robustness of ML4Code.</p>
+									<p><b>(1) Keynotes:</b>
+										We have two awesome keynote speakers,
+										<i>Dr. Michael Pradel (University of Stuttgart)</i> and <i>Dr. Kla
+											Tantithamthavorn (Monash University)</i> who will discuss their
+											insights on ML4Code robustness and interpretability. The details of
+											the talks will appear in the program. 
+									</p>
+									<p><b>(2) Research Papers:</b> We accept three types of papers: </p>
+									<ul>
+										<li><i>Full Workshop Papers: </i>
+											4-6 pages papers related to workshop's topics of interests that are
+											(1) presenting novel research ideas and preliminary results or
+											(2) interpretting or assessing robustness of existing ML4Code models. 
+										</li>										
+										<li><i>Posters: </i>
+											2 pages papers related to workshop's topics of interests that
+											are (1) proposing a statement of vision or position or (2)
+											present novel ideas without any preliminary results. For the
+											second category of papers, authors should clearly indicate their
+											evaluation plan. 
+										</li>										
+										<li><i>Journal First Papers:</i>
+											The papers accepted to appear at IEEE Software XAI4SE special issue are
+											welcome to present their papers at the workshop. The authors of journal first
+											papers at other top software engineering venues, including TSE, TOSEM, EMSE,
+											and JSS are also welcome to represent their published work at InteNSE.
+											Journal first papers do not appear in the workshop proceeding.
+										</li>
+									</ul>
+
+									<!-- <ul class="feature-icons">
 										<li class="icon solid fa-code">Robustness of NSE</li>										
 										<li class="icon solid fa-code">Interpretability of NSE</li>										
 										<li class="icon solid fa-code">Source Code Analysis</li>
@@ -165,64 +218,116 @@
 										<li class="icon solid fa-code">Software Debugging</li>									
 										<li class="icon solid fa-code">Neurosymbolic Programming</li>										
 										<li class="icon solid fa-code">Prompting </li>
-									</ul>
-									<p>
-									The authors are highly encouraged to discuss the interpretability and robustness of their proposed approach
-									in their submissions.
+									</ul> -->
+									<p style="padding: 10px; border: 2px solid black;">Papers with negative results are also welcome. Examples of negative results are: interpretability techniques that did not reveal meaningful knowledge or adversarial attacks against which the model was robust. </p>
+									<p><b>(3) Hackathon: </b>
+										InteNSE offers a unique Hackathon-style experience to in-person participants who
+										are interested to explore interpretability and robustness of neural models of code.
+										Workshop organizers will set up the tool-set and framework required
+										for the hackathon, including ready-to-use Jupyter notebooks.
+										The participants will (1) assess <i>how</i> and <i>why</i> the closed-box neural
+										models of code make specific decisions and (2) evaluate the robustness of such
+										models against adversarial inputs.
 									</p>
-									<h4>Submission Format</h4>
-									<p>Submissions must conform to the IEEE conference proceedings template, specified in the
-										<a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">IEEE Conference Proceedings Formatting Guidelines</a>
-										(title in 24pt font and full text in 10pt type, LaTeX users must use
-										\documentclass[10pt,conference]{IEEEtran} without including the compsoc or compsocconf options). 
-										The official publication date of the workshop proceedings is the date the
-										proceedings are made available. This date may be up to two weeks prior to
-										the first day of ICSE 2023. InteNSE will employ a double-blind review process.
-										No submission may reveal its authors' identities. The authors must make every
-										effort to honor the double-blind review process. In particular, the authors' names must be omitted
-										from the submission, and references to their prior work should be in the third person.
-										These papers should be at most <b>6 pages</b> in length.</p>
-										<p>The paper submission deadline is <b>13 January 2023 AoE (UTC-12h)</b>.</p>
-										<!-- <p>Accepted paper will appear in the ...</p> -->
+									<p style="padding: 10px; border: 2px solid black;">
+										Participation in the Hackathon and accessing the tool is only available for
+										<b>in-person</b> registered attendees.
+										Participants are required to have their own laptops to use the tools.
+									</p>
+									<p><b>(4) Expert Panel: </b>
+										The expert panel will comprise people from academia and industry, with a
+										research background in neural software analysis. The main theme of the
+										discussion would be on state of the ML4Code in academia and industry, the
+										importance of intrpretability and explainability of such models to move the
+										research frontiers, and potential risks concerning robustness of neural models
+										of code. The list of panelists and details about the discussions will appear
+										in the program. 
+									</p>
+									<p style="padding: 10px; border: 2px solid black;">
+										At the end of the panel, we will identify open challenges and a promising
+										roadmap in advancing the role of interpretability and robustness in neural
+										software engineering research.
+									</p>
+
 									</div>
 							</section>
 
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>Keynotes</h3>
-									<p><b>Michael Pradel</b> on the robustness of ML4SE (more information is coming)</p>
-									<p><b>Kla Tantithamthavorn</b> on the interpretability of ML4SE (more information is coming)</p>
+									<h3>Topics of Interest</h3>
+									<p>
+										We welcome research related to different aspects of software/code,
+										including <i>code completion and synthesis</i>, <i>program analysis</i>,
+										<i>software testing and debugging</i>, <i>formal verification and proof synthesis</i>,
+										<i>neurosymbolic programming</i>, and <i>prompting</i>. Specifically, we are interested
+										in both <b>theoretical</b> and <b>empirical</b> papers that explore one or more
+										of the following perspectives related to ML4Code:
+									</p>
+									<ul>
+										<li><i>Interpretability: </i>
+											<ul>
+											<li> Why interpret neural models of code?</li>
+											<li> How to interpret neural models of code?</li>
+											<li> What are the limitations of ML4Code models?</li>
+											<li> How to leverage interpretability for improving neural models of code? </li>
+											<li> Do the neural models perceive the code the same way humans do? </li>
+											</ul>									
+										</li>	
+										<li><i>Robustness: </i>
+											<ul>
+											<li> What are the consequences of brittle neural models of code?</li>
+											<li> How to assess the robustness of neural models of code?</li>
+											<li> How to quantify the robustness of neural models of code?</li>
+											<li> How to develop/train robust neural models of code?</li>
+											<li> What are the impacts of robustness on other requirements (e.g., generalization)?</li>
+											</ul>									
+										</li>	
+										<li><i>Application:</i> Explaining and root causing the following concerns in ML4Code
+											<ul>
+											<li> False positives and false negatives that result in performance degradation.</li>
+											<li> Biases in the model or data that questions the fairness of the model.</li>
+											<li> Model uncertainty, out-of-distribution, and out-of-sample detection.</li>
+											<li> Security-critical applications (e.g., addressing adversarial example and data reconstruction).</li>
+											<li> Other applications for neural software engineering/analysis.</li>
+											</ul>									
+										</li>	
+
+									</ul>
 								</div>
 							</section>
 
 						<!-- Four -->
 						<section id="four">
 							<div class="container">
-								<h3>Hackathon</h3>
-								<p>this component aims to involve researchers in interpreting and measuring the
-									robustness of existing ML4SE pre-trained models. Precisely, participants will
-									(1) assess <i>how</i> and <i>why</i> the closed-box neural models for
-									software engineering tasks to make specific decisions and (2)
-									evaluate the robustness of such models against adversarial inputs.
-									We believe such a hands-on activity can significantly enhance the <i>awareness</i>
-									and <i>knowledge</i> of the SE community about neural software analysis.</p>
+								<h4>Submission Format</h4>
+								<p>Submissions must conform to the IEEE conference proceedings template, specified in the
+									<a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">IEEE Conference Proceedings Formatting Guidelines</a>
+									(title in 24pt font and full text in 10pt type, LaTeX users must use
+									\documentclass[10pt,conference]{IEEEtran} without including the compsoc or compsocconf options). 
+									<i>The page limit is strict.</i>
+									The official publication date of the workshop proceedings is the date the
+									proceedings are made available. This date may be up to two weeks prior to
+									the first day of ICSE 2023. InteNSE will employ a double-blind review process.
+									No submission may reveal its authors' identities. The authors must make every
+									effort to honor the double-blind review process. In particular, the authors' names must be omitted
+									from the submission, and references to their prior work should be in the third person.
 							</div>
 						</section>
 
 						<!-- Five -->
 						<section id="five">
 							<div class="container">
-								<h3>Expert Panel</h3>
-								<p>The expert panel will comprise people from academia and industry, with a
-									research background in neural software analysis. The organizers will
-									prepare a list of questions, including questions from the participants in
-									the workshop, to lead the discussions. The primary goal of this panel is to
-									identify the extent to which interpretability can enhance the usage of
-									automated neural software analysis for practitioners. Furthermore, the
-									panel will serve as a platform for panelists and other participants to
-									discuss open challenges and a promising roadmap in advancing the role of
-									interpretability and robustness in ML4SE research.</p>
+								<h3>Participation</h3>
+								<p>Participation in the workshop is open to anyone interested in the topic.
+								This includes graduate and undergraduate students as well as faculty and
+								researchers at academic institutions. We also welcome participants from the
+								industry. We will specifically invite practitioners from the industry to our
+								expert panel to include their insights in the discussions and research roadmap.
+								Workshop attendees are expected to have basic familiarity with general ML concepts
+								such as training, feature engineering, and neural architecture.
+								We anticipate hosting between 15-30 participants in the workshop.
+								</p>
 							</div>
 						</section>
 						
@@ -231,10 +336,10 @@
 								<div class="container">
 									<h3>Organization Commitee</h3>
 									<ul>
-										<li>Reyhaneh Jabbarvand, Chair, University of Illinois at Urbana-Champaign, US</li>
-										<li>Saeid Tizpaz-Niari, University of Texas at El Paso, US</li>
-										<li>Earl T. Barr, University College London, UK</li>		
-										<li>Satish Chandra, Google, US</li>								
+										<li>Reyhaneh Jabbarvand (University of Illinois at Urbana-Champaign)</li>
+										<li>Saeid Tizpaz-Niari (University of Texas at El Paso)</li>
+										<li>Earl T. Barr (University College London)</li>		
+										<li>Satish Chandra (Google)</li>								
 									</ul>
 									<h3>Program Commitee</h3>
 									<ul>
